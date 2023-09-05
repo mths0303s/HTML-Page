@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(to bottom pink, blue);
+}
+
+/* DEFINIÇÃO DE LINKS */
+
+    /* Link não-visitado */
+
+    a:link {
+        color: gray;  
+    }
+
+    /* Link visitado */
+
+    a:visited {
+               color: gray;
+    }    
+     
+    /* Link com sobreposição de mouse */
+
+    a:hover {
+             color: black;
+    }         
+
+    /* Link ativado */
+
+    a:active {
+              color: violet;
+    }
+
+    img {
+        width: 450px;
+        height: 300px;
+    }
+    
+     /* DEFINIÇÃO DE CLASSES */
+
+     .imagem {
+        width: 450px;
+        height: 300px;
+    }

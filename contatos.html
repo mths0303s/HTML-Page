@@ -1,0 +1,108 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="description" content="HTML" />
+      <meta name="keywords" content="script, css, html, javascript" />
+      <link rel="stylesheet" type="text/css" href="estilos.css" />  
+      <title>contatos</title>
+    </head>
+    <body>
+<!-- Definição do cabeçalho da Página -->
+       <header>
+          <center><h1>Portfólio do 1º DS-PW1</h1></center>
+          <hr />
+<!-- Elementos de Navegação -->
+        <nav>
+          <center>
+            |<a href="index.html">quem sou?</a href>
+            |<a href="trabalhos.html">trabalhos</a href>
+            |<a href="contatos.html">contatos</a href>
+            |<a href="https://www.eteccarapicuiba.com.br/" target="_blank">ETEC 144</a href>
+            |<a href="1DSBMatheusAraujo.html">perfil</a href>
+            |
+          </center>
+</nav>
+</header>
+
+<!-- Conteúdo Principal -->       
+       <main>
+
+         <form name="" action="" method="">
+
+         <fieldset>
+
+          <legend><h1>contatos</h1></legend>
+
+          <p>
+          <label for="f_contato">Contato:</label><br />
+          <input type="text" id="f_contato" name="f_contato" placeholder="Digite seu nome" size="45" maxlength="40"/>
+          </p>
+  
+          <p>
+          <label for="f_email">E-mail:</label><br />
+          <input type="text" id="f_email" name="f_email" placeholder="email@dominio.com" size="45" maxlength="40"/>
+          <label for="f_tipoemail">Tipo-Email:</label>
+          <select id="f_tipoemail" name="f_tipoemail">
+               <option value="pessoal">pessoal</option>
+               <option value="comercial">comercial</option>
+          </select>
+          </p>
+    
+          <p>
+            <label for="f_fone">Telefone:</label><br />
+            <input type="text" id="f_fone" name="f_fone" placeholder="(DDD)99999-9999" size="20" maxlength="15"/>
+            <label for="f_periodo">Melhor período para contato:</label>
+            <input type="checkbox" id="f_periodo" name="f_periodoM" value="manhã"/>manhã
+            <input type="checkbox" id="f_periodo" name="f_periodoT" value="tarde"/>tarde
+            <input type="checkbox" id="f_periodo" name="f_periodoN" value="noite"/>noite
+          </p>
+    
+          <p>
+            <label for="f_endereco">Endereço:</label><br />
+            <input type="text" id="f_endereco" name="f_endereco" placeholder="Digite seu endereço" size="65" maxlength="55"/>
+            <label for="f_tipoemail">Tipo-Email:</label>
+            <select id="f_tipoemail" name="f_tipoemail">
+                 <option value="casa">casa</option>
+                 <option value="apartamento">apartamento</option>
+                 <option value="condominio">condominio</option>
+                 <option value="...">...</option>
+            </select>
+          </p>
+  
+          <p>
+            <label for="f_resposta">Selecione sua opção:</label><br />
+            <input type="radio" id="f_resposta" name="f_resposta" value="Informacao" />Informações<br />
+            <input type="radio" id="f_resposta" name="f_resposta" value="Reclamacao" />Reclamações<br />
+            <input type="radio" id="f_resposta" name="f_resposta" value="Sugestao" />Sugestões<br />
+          </p>
+  
+          <p>
+             <textarea rows="10" cols="100">
+              Digite seu texto aqui... 
+             </textarea>
+          </p>
+  
+          <p>
+            <input type="submit" name="btn_enviar" value="Enviar" />
+            <input type="reset" name="btn_limpar" value="Limpar" />        
+          </p>
+
+          </fieldset>
+
+          </form>
+
+       </main>
+
+<!-- Definição do Rodapé -->
+       <footer>
+          <hr>
+          <center>&copy; Copyright - 2023 - Desenvolvido por ETEC144/LRO</center>
+       </footer>
+    </body>
+</html>
